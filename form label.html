@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action"> <!-- here we use <form> to collect data form the user and  use <action attributes> taht tell us wher form data will go after you click submit  -->
+
+
+<div> <!-- we use <div> for group(block element) seperate element-->
+
+        <label> <!-- the <label> element is use to represent a caption for an item in a userinterface-->
+            username: <!-- it is csption for user interface-->
+
+            <input type="text" placeholder="enter username"/> <!--<input> element is used to take input from user inside a form-->
+        </label>
+        </div>
+
+        <br> <!--line braker-->
+<div>
+        <label> 
+            password:
+        <input type="password" placeholder="enter password"/>
+
+        <button>submit</button> <!-- here we use a button input element-->
+        
+        <input type="reset"/> <!-- here we can use a reset input element-->
+    </label>
+    
+        </div>
+
+        <br>
+<div>
+        <label for="time"> <!-- new way to interlink  label(for="time" to id="time")-->
+            enter the time:
+            <input type="time" id="time" placeholder="time"/>
+        </label>
+        </div>
+        <div>
+            <button>submit</button> <!-- here we make a <submit> button  for all -->
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
