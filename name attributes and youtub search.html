@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="/action">
+    <div>
+        <label>
+            username:
+            <input type="text" placeholder="enter username" name="username"/><!--herer we can use name attributes it help to send data to the server-->
+        </label>
+    </div>
+    <div>
+        <label>
+            password:
+            <input type="password" placeholder="enter password" name="password"/> <!-- here we can use name attributes it help to send data to the server-->
+        </label>
+    </div>
+    <div>
+        <button type="submit">submit</button>
+    
+        <input type="reset" value="click me"/>
+
+    </div>
+</form> 
+
+<hr>
+<form action="https://www.youtube.com/results"> <!--when th form is submitted, data will be sent to youtube search page because we use you search link-->
+
+    <input type="text" placeholder="search on youtube" name="search_query"> <!--input box wehre user search text-->
+    <!--name=search query, is important because youtube uses this nme to get value when we use another then its cant work -->
+    <button>search</button>
+
+</form>
+</body>
+</html>
